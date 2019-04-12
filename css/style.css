@@ -1,0 +1,46 @@
+.static{
+    border: 1px solid green;
+    padding: 10px;
+    position: static;
+    margin-bottom: 30px;
+}
+
+.relative-1{
+    padding: 10px;
+    border: 1px solid blue;
+    position: relative;
+}
+
+.relative-2{
+    border: 1px solid magenta;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    /* left: 900px; */
+    /* display: inline; */
+    /* float: right; */
+    margin-bottom: 10px;
+}
+
+.static-1{
+    border: 1px solid teal;
+    padding: 10px;
+    height: 300px;
+    position: relative;
+}
+
+.absolute{
+    border: 1px solid orchid;
+    padding: 10px;
+    position: absolute;
+    width: 150px;
+}
+
+.fixed{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    position: fixed;
+    width: 150px;
+    top: 0;
+    right: 0;
+}
